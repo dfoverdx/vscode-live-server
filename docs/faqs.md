@@ -49,14 +49,4 @@ _Note: Use either `CustomBrowser` or `AdvanceCustomBrowserCmdLine` setting._
 
  First, make a sure that your PC & Mobile are connected through same network. 
 
-* **Windows** :  Open `CMD` and enter `ipconfig`.
-* **Linux/macOS** : Open `terminal` and enter `ifconfig`.
-
-And note down the `IPv4 Address` (probably it will look like 192.168.xx.xx). This is your PC's IP address. Enter the address to your browser's URL Bar with the port number**.
-
-        http://<IP Address> : <Port>
-
-** For an example, if your server running at **http:// 127.0.0.1:3500** on PC then port number is **3500**.
-
-----------
-
+In Windows, ensure that the Windows Firewall is allowing Visial Studio Code public access via `Control Panel\All Control Panel Items\Windows Defender Firewall\Allowed apps
